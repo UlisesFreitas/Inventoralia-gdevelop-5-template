@@ -1,0 +1,1 @@
+# Inventoralia-gdevelop-5-template
