@@ -15,7 +15,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Inventoralia - Inventory & Shop",
     "author": "ddabrahim, Ulises Freitas <ulises.freitas@gmail.com>",
     "windowWidth": 640,
@@ -25,32 +25,32 @@
     "minFPS": 10,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "android-icon-144.png",
-      "android-icon-192": "android-icon-192.png",
-      "android-icon-36": "android-icon-36.png",
-      "android-icon-48": "android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "android-icon-96.png",
-      "desktop-icon-512": "desktop-icon-512.png",
-      "ios-icon-100": "ios-icon-100.png",
-      "ios-icon-1024": "ios-icon-1024.png",
-      "ios-icon-114": "ios-icon-114.png",
-      "ios-icon-120": "ios-icon-120.png",
-      "ios-icon-144": "ios-icon-144.png",
-      "ios-icon-152": "ios-icon-152.png",
-      "ios-icon-167": "ios-icon-167.png",
-      "ios-icon-180": "ios-icon-180.png",
-      "ios-icon-20": "ios-icon-20.png",
-      "ios-icon-29": "ios-icon-29.png",
-      "ios-icon-40": "ios-icon-40.png",
-      "ios-icon-50": "ios-icon-50.png",
-      "ios-icon-57": "ios-icon-57.png",
-      "ios-icon-58": "ios-icon-58.png",
-      "ios-icon-60": "ios-icon-60.png",
-      "ios-icon-72": "ios-icon-72.png",
-      "ios-icon-76": "ios-icon-76.png",
-      "ios-icon-80": "ios-icon-80.png",
-      "ios-icon-87": "ios-icon-87.png"
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
     },
     "loadingScreen": {
       "backgroundColor": 0,
@@ -86,8 +86,305 @@
         "userAdded": false
       },
       {
+        "file": "Assets/sounds/05-button.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\05-button.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
-        "file": "Assets/sprites/empty_item.png",
+        "file": "Assets/sprites/items/obj_collectable_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\items\\obj_collectable_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/sounds/01-pickup-item.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\01-pickup-item.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/sounds/07-text-blip.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\07-text-blip.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/sounds/08-trash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\08-trash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/coins-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\hud\\coins-bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/btn_buy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\hud\\btn_buy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/sounds/03-energy.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\03-energy.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\hud\\slots\\obj_items_btn_10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\hud\\slots\\obj_items_btn_11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\hud\\slots\\obj_items_btn_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/sounds/06-clap-klick.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\06-clap-klick.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/sounds/04-cash-register.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\04-cash-register.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/coin-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\coin-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/music/0-main-music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\music\\0-main-music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/cursor-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\cursor-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/base-p9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\base-p9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/base-button-shop1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\base-button-inventory.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/base-button-shop2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\base-button-shop2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/base-button-controls.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\base-button-controls.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/base-button-delete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\base-button-delete.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/slots/obj_items_btn_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\slots\\obj_items_btn_9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/bin_close1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\bin_close1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/buttons/bin_open1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\bin_open1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/empty_item.png",
         "kind": "image",
         "metadata": "",
         "name": "Assets\\sprites\\empty_item.png",
@@ -96,47 +393,11 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/base-button-inventory.png",
+        "file": "Assets/sprites/items/obj_collectable_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\base-button-inventory.png",
+        "name": "Assets\\sprites\\items\\obj_collectable_1.png",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/base-button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\base-button.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/base-button-shop2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\base-button-shop2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/obj_hud_close_btn.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\obj_hud_close_btn.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/sounds/05-button.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\05-button.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -150,37 +411,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/sprites/items/obj_collectable_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\items\\obj_collectable_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Assets/sprites/items/obj_collectable_3.png",
         "kind": "image",
         "metadata": "",
         "name": "Assets\\sprites\\items\\obj_collectable_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/items/obj_collectable_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\items\\obj_collectable_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/items/obj_collectable_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\items\\obj_collectable_5.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -222,569 +456,56 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_0.png",
+        "file": "Assets/sprites/items/obj_collectable_5.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_0.png",
+        "name": "Assets\\sprites\\items\\obj_collectable_5.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_1.png",
+        "file": "Assets/sprites/hud/buttons/btn_save_load1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_1.png",
+        "name": "Assets\\sprites\\hud\\btn_save_load1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_2.png",
+        "file": "Assets/sprites/hud/buttons/btn_save_load2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_2.png",
+        "name": "Assets\\sprites\\hud\\btn_save_load2.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_3.png",
+        "file": "Assets/sprites/hud/btn_click_for_collect.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_3.png",
+        "name": "Assets\\sprites\\hud\\btn_click_for_collect.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_4.png",
+        "file": "Assets/sprites/hud/buttons/obj_hud_close_btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_4.png",
+        "name": "Assets\\sprites\\hud\\obj_hud_close_btn.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_5.png",
+        "file": "Assets/sprites/hud/obj_hud_box_144.png",
         "kind": "image",
         "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_5.png",
+        "name": "Assets\\sprites\\hud\\obj_hud_box_144.png",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_7.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/btn_save_load1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\btn_save_load1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/btn_save_load2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\btn_save_load2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/bin_close1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\bin_close1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/bin_open1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\bin_open1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/btn_click_for_collect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\btn_click_for_collect.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/obj_hud_box_128 - copia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\obj_hud_box_128 - copia.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/obj_hud_box_144x256.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\obj_hud_box_144x256.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/effect-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\effect-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/obj_hud_box_144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\obj_hud_box_144.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/base-button-delete.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\base-button-delete.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/cursor-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\cursor-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/sounds/01-pickup-item.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\01-pickup-item.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Assets/sounds/07-text-blip.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\07-text-blip.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Assets/sounds/08-trash.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\08-trash.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/obj_hud_box_256x256.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\obj_hud_box_256x256.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/coins-bg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\coins-bg.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/btn_buy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\btn_buy.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/sounds/03-energy.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\03-energy.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_11.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/slots/obj_items_btn_12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\slots\\obj_items_btn_12.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/sounds/06-clap-klick.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\06-clap-klick.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Assets/sounds/04-cash-register.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\sounds\\04-cash-register.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/coin-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\coin-1-0.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/hud/base-button-controls.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\hud\\base-button-controls.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/controls_bg-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\controls_bg-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/music/0-main-music.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Assets\\music\\0-main-music.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-1024.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-87.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-20.png",
-        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -883,7 +604,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Readme",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1325,18 +1046,18 @@
       ]
     },
     {
-      "b": 155,
+      "b": 74,
       "disableInputWhenNotFocused": true,
       "mangledName": "GameScene",
       "name": "GameScene",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 155,
+      "r": 74,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 74,
       "uiSettings": {
         "grid": true,
         "gridB": 255,
@@ -1349,7 +1070,7 @@
         "gridWidth": 8,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1.1666666503906251
+        "zoomFactor": 0.6250000366210935
       },
       "objectsGroups": [
         {
@@ -1405,22 +1126,6 @@
               "value": 4
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 360,
-          "layer": "EFFECT",
-          "locked": true,
-          "name": "effect",
-          "persistentUuid": "91681299-9ecd-47d7-89f4-222a3bfa0a76",
-          "width": 640,
-          "x": 0,
-          "y": 0,
-          "zOrder": 3,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -1508,7 +1213,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_0.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_0.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1562,7 +1267,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_1.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_1.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1616,7 +1321,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_2.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_2.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1670,7 +1375,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_3.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_3.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1724,7 +1429,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_4.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_4.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1778,7 +1483,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_5.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_5.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1832,7 +1537,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_6.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_6.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1886,7 +1591,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_7.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_7.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1940,7 +1645,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_8.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_8.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -1994,7 +1699,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_9.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_9.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2059,7 +1764,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_0.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_0.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2113,7 +1818,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_1.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_1.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2167,7 +1872,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_2.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_2.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2221,7 +1926,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_3.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_3.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2275,7 +1980,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_4.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_4.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2329,7 +2034,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_5.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_5.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2383,7 +2088,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_6.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_6.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2437,7 +2142,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_7.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_7.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2491,7 +2196,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_8.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_8.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2545,7 +2250,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\slots\\obj_items_btn_9.png",
+                      "image": "Assets\\sprites\\hud\\slots\\obj_items_btn_9.png",
                       "points": [
                         {
                           "name": "slot_text",
@@ -2610,7 +2315,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\hud\\bin_close1.png",
+                      "image": "Assets\\sprites\\hud\\bin_close1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2658,7 +2363,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\hud\\bin_open1.png",
+                      "image": "Assets\\sprites\\hud\\bin_open1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3445,7 +3150,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "obj_collectable_5",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3749,7 +3454,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\cursor-1.png",
+                      "image": "Assets\\sprites\\hud\\cursor-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3789,7 +3494,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\base-button.png",
+                      "image": "Assets\\sprites\\hud\\base-button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3814,11 +3519,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\base-button-inventory.png",
+                      "image": "Assets\\sprites\\hud\\base-button-inventory.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3843,11 +3548,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\base-button-shop2.png",
+                      "image": "Assets\\sprites\\hud\\base-button-shop2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3872,11 +3577,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\base-button-delete.png",
+                      "image": "Assets\\sprites\\hud\\base-button-delete.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3901,11 +3606,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\base-button-controls.png",
+                      "image": "Assets\\sprites\\hud\\base-button-controls.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3945,7 +3650,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\btn_save_load1.png",
+                      "image": "Assets\\sprites\\hud\\btn_save_load1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3974,7 +3679,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\btn_save_load2.png",
+                      "image": "Assets\\sprites\\hud\\btn_save_load2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4005,16 +3710,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "btn_click_for_collect",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\btn_click_for_collect.png",
+                      "image": "Assets\\sprites\\hud\\btn_click_for_collect.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4076,6 +3781,22 @@
           ]
         },
         {
+          "bottomMargin": 4,
+          "height": 32,
+          "leftMargin": 4,
+          "name": "hud_panel",
+          "rightMargin": 4,
+          "tags": "",
+          "texture": "Assets\\sprites\\hud\\base-p9.png",
+          "tiled": false,
+          "topMargin": 4,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
           "name": "obj_close_btn",
           "tags": "HUD",
           "type": "Sprite",
@@ -4094,7 +3815,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\obj_hud_close_btn.png",
+                      "image": "Assets\\sprites\\hud\\obj_hud_close_btn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4114,97 +3835,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "hud_panel",
-          "tags": "HUD",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "obj_hud_box_128-copia",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\obj_hud_box_128 - copia.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "hud_panel_144",
-          "tags": "INVENTORY",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\obj_hud_box_144x256.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 8,
-          "name": "effect",
-          "tags": "HUD",
-          "texture": "Assets\\sprites\\effect-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 8,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "name": "hud_panel_144x144",
@@ -4216,16 +3846,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "obj_hud_box_144",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\obj_hud_box_144.png",
+                      "image": "Assets\\sprites\\hud\\obj_hud_box_144.png",
                       "points": [
                         {
                           "name": "title",
@@ -4238,46 +3868,6 @@
                           "y": 32
                         }
                       ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "hud_panel_256",
-          "tags": "SHOP",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Assets\\hud\\obj_hud_box_256x256.png",
-                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4479,17 +4069,6 @@
               ]
             }
           ]
-        },
-        {
-          "height": 32,
-          "name": "controls_bg",
-          "tags": "",
-          "texture": "Assets\\sprites\\controls_bg-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -4751,7 +4330,7 @@
                   "parameters": [
                     "cursor",
                     "=",
-                    "300"
+                    "1000"
                   ],
                   "subInstructions": []
                 }
@@ -6545,6 +6124,18 @@
                         "\"Inventory\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "cursor",
+                        "=",
+                        "1000"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -6742,6 +6333,18 @@
                         "txt_title",
                         "=",
                         "\"shop\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "cursor",
+                        "=",
+                        "1000"
                       ],
                       "subInstructions": []
                     }
@@ -7113,47 +6716,6 @@
             }
           ],
           "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 8992792,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "EFFECT",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Godray",
-              "name": "Effect",
-              "doubleParameters": {
-                "angle": 30,
-                "animationSpeed": 1,
-                "gain": 0.6,
-                "lacunarity": 2.75,
-                "light": 30,
-                "x": 100,
-                "y": 100
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "parallel": true
-              }
-            },
-            {
-              "effectType": "Blur",
-              "name": "Effect2",
-              "doubleParameters": {
-                "blur": 2,
-                "kernelSize": 5,
-                "quality": 1,
-                "resolution": 1
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
         },
         {
           "ambientLightColorB": 200,
@@ -14481,7 +14043,7 @@
           "persistentUuid": "3faf5d15-4400-430a-8ea6-2a1337913e2f",
           "width": 32,
           "x": 144,
-          "y": 152,
+          "y": 136,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14518,7 +14080,7 @@
           "persistentUuid": "d9a33b00-cf7a-406f-9375-bcdea4dc92b4",
           "width": 32,
           "x": 144,
-          "y": 216,
+          "y": 176,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14554,8 +14116,8 @@
           "name": "item_card",
           "persistentUuid": "91f85514-9e52-4d42-a21e-0a9961b2d1c4",
           "width": 32,
-          "x": 112,
-          "y": 88,
+          "x": 96,
+          "y": 96,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14591,8 +14153,8 @@
           "name": "item_book_hp",
           "persistentUuid": "983b772e-a9c6-4422-8f11-a8d631cda3de",
           "width": 32,
-          "x": 176,
-          "y": 88,
+          "x": 192,
+          "y": 96,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14628,8 +14190,8 @@
           "name": "item_book_exp",
           "persistentUuid": "1cdf7ae0-ab2d-4c62-b2ff-0684871815c7",
           "width": 32,
-          "x": 176,
-          "y": 216,
+          "x": 192,
+          "y": 176,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14666,7 +14228,7 @@
           "persistentUuid": "b21ceba7-a8ad-4348-bf5e-e98961af894a",
           "width": 32,
           "x": 144,
-          "y": 88,
+          "y": 96,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14702,8 +14264,8 @@
           "name": "item_book_mp",
           "persistentUuid": "747c1314-4687-4400-9d51-b9aa38950950",
           "width": 32,
-          "x": 176,
-          "y": 152,
+          "x": 192,
+          "y": 136,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14739,8 +14301,8 @@
           "name": "item_potion_mp",
           "persistentUuid": "79d62d9c-96d0-4d80-b1d1-059919ec8a16",
           "width": 32,
-          "x": 112,
-          "y": 216,
+          "x": 96,
+          "y": 176,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14777,7 +14339,7 @@
           "persistentUuid": "2c8c3c43-2d62-4c6b-9ad9-6fa4cf0fd891",
           "width": 48,
           "x": 136,
-          "y": 304,
+          "y": 240,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -14855,30 +14417,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 256,
-          "layer": "INVENTORY",
-          "locked": false,
-          "name": "hud_panel",
-          "persistentUuid": "f24179e3-9d48-4d2d-ab23-6e4d7c31d1ae",
-          "width": 312,
-          "x": 248,
-          "y": 40,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 32,
           "layer": "INVENTORY",
           "locked": false,
           "name": "item_potion_hp",
           "persistentUuid": "5a7e3ce7-9648-4996-8df6-db957ac29a8a",
           "width": 32,
-          "x": 112,
-          "y": 152,
+          "x": 96,
+          "y": 136,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14911,22 +14457,6 @@
           "height": 0,
           "layer": "INVENTORY",
           "locked": false,
-          "name": "hud_panel_144",
-          "persistentUuid": "9b5a2ac3-499d-4087-8c7f-1216160d8c83",
-          "width": 0,
-          "x": 88,
-          "y": 40,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "INVENTORY",
-          "locked": false,
           "name": "hud_panel_144x144",
           "persistentUuid": "19561973-ebf8-488b-9cc7-a03bc5109b7c",
           "width": 0,
@@ -14952,6 +14482,182 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "d8ce7c54-a489-4d05-be9a-348312d56607",
+          "width": 312,
+          "x": 248,
+          "y": 40,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "fe04a7b0-5481-42c7-a23d-409be939b677",
+          "width": 144,
+          "x": 88,
+          "y": 40,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "8629ceee-c4e4-443d-b896-9c9851f178d9",
+          "width": 0,
+          "x": 192,
+          "y": 176,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "236961e6-c76b-4397-ab72-3bd9b4aaea01",
+          "width": 0,
+          "x": 96,
+          "y": 176,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "09152492-909f-414c-ade0-47fcd97c1168",
+          "width": 0,
+          "x": 144,
+          "y": 176,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "e074cdba-1991-41a0-967e-303d43e7e47a",
+          "width": 0,
+          "x": 96,
+          "y": 96,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "19a467d4-97a5-46d1-80b4-7f920d68fde4",
+          "width": 0,
+          "x": 144,
+          "y": 96,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "632f0384-27a8-4832-971c-c29738586bb4",
+          "width": 0,
+          "x": 192,
+          "y": 96,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "aed09db3-e0fe-4d52-8f9e-b35a62a15891",
+          "width": 0,
+          "x": 96,
+          "y": 136,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "b1bb9711-1f3d-40bc-b3d5-54fd55f629fc",
+          "width": 0,
+          "x": 144,
+          "y": 136,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "INVENTORY",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "756dd289-ce3d-4942-9f2a-c75fb908b0d8",
+          "width": 0,
+          "x": 192,
+          "y": 136,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -14966,29 +14672,13 @@
         "gridWidth": 8,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.8166666748046874
+        "zoomFactor": 1.4833332763671863
       }
     },
     {
       "associatedLayout": "GameScene",
       "name": "SHOP",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "SHOP",
-          "locked": false,
-          "name": "hud_panel_144",
-          "persistentUuid": "b6036b7c-a20b-48f1-8658-988a17e1fa58",
-          "width": 0,
-          "x": 112,
-          "y": 40,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -15418,22 +15108,6 @@
           "height": 0,
           "layer": "SHOP",
           "locked": false,
-          "name": "hud_panel_256",
-          "persistentUuid": "04077a7c-4ec0-4d5c-84cc-411884359d5b",
-          "width": 0,
-          "x": 264,
-          "y": 40,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "SHOP",
-          "locked": false,
           "name": "coins_bg",
           "persistentUuid": "1e6ea52a-ab50-4e1f-b7fe-b044bd4b696f",
           "width": 0,
@@ -15491,6 +15165,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "SHOP",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "c6663303-79bf-47ad-8481-3492e4eb0588",
+          "width": 144,
+          "x": 112,
+          "y": 40,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "SHOP",
+          "locked": false,
+          "name": "hud_panel",
+          "persistentUuid": "3dcbee58-2141-4291-8aba-324d30083c5c",
+          "width": 256,
+          "x": 264,
+          "y": 40,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -15505,7 +15211,7 @@
         "gridWidth": 8,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1.0833333251953126
+        "zoomFactor": 1.1249999877929688
       }
     },
     {
@@ -15524,22 +15230,6 @@
           "x": 24,
           "y": 72,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 296,
-          "layer": "CONTROLS",
-          "locked": false,
-          "name": "controls_bg",
-          "persistentUuid": "3fb56ef7-9775-47f1-ac3f-c504e98c43bd",
-          "width": 624,
-          "x": 8,
-          "y": 56,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
